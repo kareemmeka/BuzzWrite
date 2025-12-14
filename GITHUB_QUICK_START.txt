@@ -1,0 +1,40 @@
+═══════════════════════════════════════════════════════════════
+🚀 QUICK START: Upload BuzzWrite to GitHub
+═══════════════════════════════════════════════════════════════
+
+📍 STEP 1: Open Terminal
+   cd "/Users/kareemelsenosy/Documents/CPE - BuzzWrite"
+
+📍 STEP 2: Initialize Git
+   git init
+   git add .
+   git commit -m "Initial commit: BuzzWrite VR project"
+
+📍 STEP 3: Create GitHub Repository
+   → Go to https://github.com
+   → Click "+" → "New repository"
+   → Name: "BuzzWrite"
+   → DO NOT check any boxes (no README, no .gitignore)
+   → Click "Create repository"
+
+📍 STEP 4: Copy Repository URL
+   → From GitHub page, copy the URL:
+     https://github.com/YOUR_USERNAME/BuzzWrite.git
+
+📍 STEP 5: Connect & Upload
+   git remote add origin https://github.com/YOUR_USERNAME/BuzzWrite.git
+   git branch -M main
+   git push -u origin main
+
+📍 STEP 6: Login
+   → Username: Your GitHub username
+   → Password: Use Personal Access Token (NOT password!)
+     → GitHub → Settings → Developer settings → Personal access tokens
+     → Generate new token → Check "repo" → Copy token → Use as password
+
+═══════════════════════════════════════════════════════════════
+✅ DONE! Your project is on GitHub!
+═══════════════════════════════════════════════════════════════
+
+📝 For detailed instructions, see: GITHUB_UPLOAD_GUIDE.md
+
